@@ -1,0 +1,49 @@
+<body onload="setup()">
+	<div class="text_title">
+	<span>Plant Tycoon Calculator</span>
+	</div>
+	
+	<div class="text_intro">
+	<span>This tool can either calculate the progeny of two plants, or search for combinations of flowers and foliage necessary to breed a specific plant.</span>
+	</div>
+	
+    <div>
+	<select id="plant1_flow" class="input_flower"></select>
+    <select id="plant1_fol" class="input_flower"></select>
+	</div>
+	
+	<div>
+	<select id="plant2_flow" class="input_flower"></select>
+  	<select id="plant2_fol" class="input_flower"></select>
+	</div>
+    
+    <button onclick="pollinate()">Manual Pollinate</button>
+	
+	
+	<div class="pollinate_output">
+	<span>Resulting Plant:</span>
+	<span id="out1"></span>
+    <span id="out2"></span>
+	</div>
+	
+	<button onclick="search_dom()">Search For Flower</button>
+	
+	<div>
+	<select id="search_input_flow" class="input_flower"></select>
+  	<select id="search_input_fol" class="input_flower"></select>
+	</div>
+  	<div>
+		<table id="searchres" style="100%">
+	<tr>
+		<th>
+			Flower combinations for <span id="searchflow"> flower </span>
+		</th>
+		<th>
+			Foliage combinations for <span id="searchfol"> foliage </span>
+		</th>
+	</tr>
+	</table>
+	
+	</div>
+
+</body>
