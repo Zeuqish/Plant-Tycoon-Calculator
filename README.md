@@ -1,5 +1,5 @@
 # Plant-Tycoon-Calculator
-A simple tool for calculating and searching for plant pollination results
+A simple tool for calculating and searching for plant pollination results for the game Plant Tycoon.
 
 
 ## How to use:
